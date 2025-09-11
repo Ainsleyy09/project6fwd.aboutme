@@ -1,0 +1,33 @@
+header .carousel-item img {
+    height: 400px;        
+    width: 100%;
+    object-fit: cover;   
+  }
+
+.navbar.bg-body-tertiary {
+    background-color: #104698 !important;
+}
+
+.navbar .nav-link {
+    color: white !important; 
+}
+  
+.navbar .nav-link:hover {
+    color: #ffeb3b !important; 
+}
+
+footer{
+.social-icon img {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.social-icon img:hover {
+    background-color: white;
+    transform: scale(1.2);
+    border-color: #104698;
+}
+
+}
